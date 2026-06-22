@@ -18,11 +18,22 @@ st.markdown("""
 html, body, [class*="css"], * { font-family: 'Inter', sans-serif !important; }
 body, .stApp { background: #F0F2F6 !important; }
             
+
+            
 /* ── HIDE STREAMLIT BRANDING & FOOTER ── */
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden !important; }
 .stDeployButton { display: none !important; }
 div[data-testid="stStatusWidget"] { visibility: hidden; }
+            
+/* ── NUCLEAR REMOVAL OF ALL BRANDING & PROFILE UI ── */
+#MainMenu { visibility: hidden !important; }
+footer { visibility: hidden !important; }
+.stDeployButton { display: none !important; }
+div[data-testid="stStatusWidget"] { visibility: hidden !important; }
+
+/* Hide the user profile/avatar menu at the top right */
+[data-testid="stAppToolbar"] { visibility: hidden !important; }
 
 /* ── SIDEBAR ── */
 [data-testid="stSidebar"] {
