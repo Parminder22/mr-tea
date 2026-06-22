@@ -1,6 +1,4 @@
-# dashboard.py
 
-```python
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -713,4 +711,4 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 st.caption(
     "Financial Intelligence Dashboard • Strategic Simulation Environment"
 )
-```
+
