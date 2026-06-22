@@ -1,0 +1,14 @@
+[client]
+toolbarMode = "viewerOnly"
+
+[ui]
+hideTopBar = true
+
+[runner]
+magic = false
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
