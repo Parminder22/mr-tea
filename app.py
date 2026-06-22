@@ -17,6 +17,12 @@ st.markdown("""
 .block-container { padding: 1rem 1.5rem 2rem 1.5rem !important; max-width: 100% !important; }
 html, body, [class*="css"], * { font-family: 'Inter', sans-serif !important; }
 body, .stApp { background: #F0F2F6 !important; }
+            
+/* ── HIDE STREAMLIT BRANDING & FOOTER ── */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden !important; }
+.stDeployButton { display: none !important; }
+div[data-testid="stStatusWidget"] { visibility: hidden; }
 
 /* ── SIDEBAR ── */
 [data-testid="stSidebar"] {
