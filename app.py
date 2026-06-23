@@ -148,7 +148,7 @@ div[data-testid="stStatusWidget"] { visibility: hidden !important; }
 # ══════════════════════════════════════════════════════
 # CONSTANTS & HELPERS
 # ══════════════════════════════════════════════════════
-DAYS = 26
+DAYS = 30
 PLOTLY_CFG = dict(displayModeBar=False)
 
 def base_layout(h, ml=20, mr=20, mt=44, mb=16):
